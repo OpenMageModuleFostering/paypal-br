@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Paypal-BR</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Update several versions of Magento Community to better support PayPal for the Brazilian market.</summary>
+    <description>This extension is specific for the Brazilian market. It updates Magento-PayPal integration to support specific features for payments in Brazil</description>
+    <notes>This extension is specific for the Brazilian market. It updates Magento-PayPal integration to support specific features for payments in Brazil.&#xD;
+</notes>
+    <authors><author><name>Marcelo Negrini</name><user>paypalbr</user><email>mnegrini@paypal.com</email></author></authors>
+    <date>2012-08-20</date>
+    <time>18:53:09</time>
+    <contents><target name="magecommunity"><dir name="Paypal"><dir name="Paypalbr"><dir name="Block"><dir name="Adminhtml"><file name="Paypalbrbackend.php" hash="4a3bef900fa4a0a8effb047fdc413d24"/></dir></dir><dir name="Helper"><file name="Data.php" hash="dc4eaa470bb9d3d60deb64f5c1bb52c7"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="PaypalbrbackendController.php" hash="41840372084b9cf8b4ae0cd03f486d94"/></dir></dir><dir name="etc"><file name="config.xml" hash="a548ce78cb3b5dbab1ecfcd9606e58c0"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="paypalbr.xml" hash="b3da96eee7eb3fcd6c1c5a366aaac5fc"/></dir><dir name="template"><dir name="paypalbr"><file name="paypalbrbackend.phtml" hash="3b95bf2fab00dbbe08485fb4061856ed"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Paypal_Paypalbr.xml" hash="c3b7b9d5cc53ba41ffc29335562247cb"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
