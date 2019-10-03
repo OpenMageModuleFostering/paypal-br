@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Paypal-BR",
+    "name": "OpenMageModuleFostering\/Paypal-BR",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Update several versions of Magento Community to better support PayPal for the Brazilian market.",
     "authors": [
-    {
-        "name": "Marcelo Negrini",
-        "email": "mnegrini@paypal.com"
-    }
-],
+        {
+            "name": "Marcelo Negrini",
+            "email": "mnegrini@paypal.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
